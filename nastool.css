@@ -1,0 +1,12 @@
+/* 背景图片 url可自行替换修改 */
+.theme-dark .page {
+    background-image: url(https://b2.kuibu.net/file/imgdisk/2023/07/06/silhouette_night_starry_sky_137292_2560x1440.jpg);
+}
+/* 主体块div调整半透明色 */
+.navbar, .theme-dark .alert:not(.alert-important), .theme-dark .card, .theme-dark .card-footer, .theme-dark .card-stacked::after, .theme-dark .dropdown-menu, .theme-dark .footer:not(.footer-transparent), .theme-dark .modal-content, .theme-dark .modal-header, .theme-dark .toast, .theme-dark .toast-header {
+    background-color: rgba(29, 39, 59, 0.8)!important;
+}
+/* 输入框等小组件div半透明色 */
+.theme-dark .form-check-input:not(:checked), .theme-dark .form-control, .theme-dark .form-file-text, .theme-dark .form-select, .theme-dark .form-selectgroup-check {
+    background-color: rgba(29, 39, 59, 0.4);
+}
